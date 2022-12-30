@@ -12,11 +12,11 @@ h2 {
 }
 
 th {
-    color: olivedrab
+    color: olivedrab;
 }
 
 td {
-    color: darkolivegreen
+    color: darkolivegreen;
 }
 
 span {
@@ -24,12 +24,18 @@ span {
     font-family: monospace;
     background-color: white;
 }
+
 table, td, th {
     border: 1px solid white;
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
 }
+
 .description {
     text-align: left;
+}
+
+table {
+    width: 650px;
 }
