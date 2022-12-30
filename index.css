@@ -1,14 +1,17 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: lightpink;
+    
 }
 
 h1 {
     color: darkgreen;
+    text-align: center;
 }
 
 h2 {
     color: green;
+    text-align: center;
 }
 
 th {
@@ -37,5 +40,6 @@ table, td, th {
 }
 
 table {
-    width: 650px;
+    width: 800px;
+    position: center;
 }
