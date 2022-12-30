@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="./resources/CSS/index.css">
+    </head>
+    <body>
+        <h1>HTML Forms Reference sheet</h1>
+        <h2>HTML Tags</h2>
+        <table>
+          <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td><span>&lt;form&gt;</span></td>
+                <td>Form</td>
+                <td class="description">The wrapper element for all HTML forms.</td>
+            </tr>
+            <!--next row-->
+            <tr>
+                <td><span>&lt;input&gt;</span></td>
+                <td>Input</td>
+                <td class="description">The most used form element. It always has a <span>type</span> attribute.</td>
+            </tr>
+            <!--next row-->
+            <tr>
+                <td><span>&lt;label&gt;</span></td>
+                <td>Label</td>
+                <td class="description">The <span>&lt;label&gt;</span> element defines a label for several form elements.</td>
+            </tr>
+            <!--next row-->
+            <tr>
+                <td><span>&lt;select&gt;</span></td>
+                <td>Select</td>
+                <td class="description">The <span>&lt;select&gt;</span> element defines a drop-down list</td>
+            </tr>
+            <!--next row-->
+            <tr>
+                <td><span>&lt;option&gt;</span></td>
+                <td>Option</td>
+                <td class="description">The <span>&lt;option&gt;</span> element defines an option that can be selected. By default, the first item in the drop-down list is selected. To define a pre-selected option, add the <span>selected</span> attribute to the option</td>
+            </tr>
+              <!--next row-->
+              <tr>
+                <td><span>&lt;button&gt;</span></td>
+                <td>Button</td>
+                <td class="description">This element defines a clickable button</td>
+            </tr>
+             <!--next row-->
+             <tr>
+                <td><span>&lt;textarea&gt;</span></td>
+                <td>Textarea</td>
+                <td class="description">The <span>&lt;textarea&gt;</span> element defines a multi-line input field (a text area)</td>
+            </tr>
+             <!--next row-->
+             <tr>
+                <td><span>&lt;fieldset&gt;</span></td>
+                <td>Fieldset</td>
+                <td class="description">This element is used to group related data in a form</td>
+            </tr>
+             <!--next row-->
+             <tr>
+                <td><span>&lt;legend&gt;</span></td>
+                <td>Legend</td>
+                <td class="description">This element defines a caption for the <span>&lt;fieldset&gt;</span> element</td>
+            </tr>
+             <!--next row-->
+             <tr>
+                <td><span>&lt;datalist&gt;</span></td>
+                <td>Datalist</td>
+                <td class="description">This element specifies a list of pre-defined options for an <span>&lt;input&gt;</span> element.
+                    Users will see a drop-down list of the pre-defined options as they input data.
+                    The <span>list</span> attribute of the <span>&lt;input&gt;</span> element, must refer to the <span>id</span> attribute of the <span>&lt;datalist&gt;</span> element.
+                    </td>
+            </tr>
+             <!--next row-->
+             <tr>
+                <td><span>&lt;output&gt;</span></td>
+                <td>Output</td>
+                <td class="description">This element represents the result of a calculation (like one performed by a script)</td>
+            </tr>
+             <!--next row-->
+             <tr>
+                <td><span>&lt;optgroup&gt;</span></td>
+                <td>Optgroup</td>
+                <td class="description">This tag is used to group related options in a <span>&lt;select&gt;</span> element (drop-down list)</td>
+            </tr>
+          </tbody>
+        </table><br>
+
+<!--next table-->
+
+        <h2>HTML Attributes</h2>
+        <table>
+            <thead>
+              <tr>
+                  <th>Attribute</th>
+                  <th>Name</th>
+                  <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td><span>type</span></td>
+                  <td>Type</td>
+                  <td class="description">The <span>type</span> attribute belongs to the <span>&lt;input&gt;</span> element. The values are <span>text</span>, <span>radio</span>, <span>checkbox</span>, <span>submit</span> or <span>button</span>.</td>
+              </tr>
+              <!--next row-->
+              <tr>
+                  <td><span>id</span></td>
+                  <td>ID</td>
+                  <td class="description">An attribute of the <span>&lt;input&gt;</span> tag, it should match the <span>for</span> attribute of the <span>&lt;label&gt;</span> element to bind them together.</td>
+              </tr>
+              <!--next row-->
+              <tr>
+                  <td><span>name</span></td>
+                  <td>Name</td>
+                  <td class="description">each <span>input</span> field must have a <span>name</span> attribute to be submitted. If the <span>name</span> attribute is omitted, the value of the <span>input</span> field will not be sent at all.</td>
+              </tr>
+              <!--next row-->
+              <tr>
+                <td><span>value</span></td>
+                <td>Value</td>
+                <td class="description">The value attribute specifies the value of an <span>&lt;input&gt;</span> element.</td>
+              </tr>
+              <!--next row-->
+              <tr>
+                  <td><span>for</span></td>
+                  <td>For</td>
+                  <td class="description">An attribute of the <span>&lt;label&gt;</span> tag, it should match the <span>id</span> attribute of the <span>&lt;input&gt;</span> element to bind them together.</td>
+              </tr>
+                <!--next row-->
+                <tr>
+                  <td><span>action</span></td>
+                  <td>Action</td>
+                  <td class="description">Specifies where to send the form-data when a form is submitted</td>
+              </tr>
+               <!--next row-->
+               <tr>
+                <td><span>target</span></td>
+                <td>Target</td>
+                <td class="description">Specifies where to display the response that is received after submitting the form</td>
+            </tr>
+           <!--next row-->
+           <tr>
+            <td><span>method</span></td>
+            <td>Method</td>
+            <td class="description">Specifies the HTTP method to use when sending form-data</td>
+          </tr>
+         <!--next row-->
+        <tr>
+          <td><span>accept-charset</span></td>
+          <td>Accept-Charset</td>
+          <td class="description">Specifies the character encodings used for form submission</td>
+      </tr>
+      <!--next row-->
+      <tr>
+        <td><span>autocomplete</span></td>
+        <td>Autocomplete</td>
+        <td class="description">Specifies whether a form should have autocomplete on or off</td>
+    </tr>
+    <!--next row-->
+    <tr>
+        <td><span>enctype</span></td>
+        <td>Enctype</td>
+        <td class="description">Specifies how the form-data should be encoded when submitting it to the server (only for method="post")</td>
+    </tr>
+    <!--next row-->
+    <tr>
+        <td><span>novalidate</span></td>
+        <td>Novalidate</td>
+        <td class="description">Specifies that the form should not be validated when submitted</td>
+    </tr>
+    <!--next row-->
+    <tr>
+        <td><span>rel</span></td>
+        <td>Rel</td>
+        <td class="description">Specifies the relationship between a linked resource and the current document</td>
+    </tr>
+    </tbody>
+</table>
+<br>
+<br>
+</body>
+</html>
